@@ -1,0 +1,55 @@
+#what .items{
+    display: block ;
+    padding: 1rem;
+}
+
+
+
+#what .items .item {
+    display: flex;
+    margin-right: 1.4rem;
+  }
+  #what .items .item i {
+    align-self: center;
+    margin-bottom: 0;
+  }
+  /* smartphones*/
+  @media(max-width:500px){
+      #navbar{
+          flex-direction: column;
+          align-items: center;
+      }
+      #navbar .logo{
+          margin-bottom: 0.5rem;
+          text-align: center;
+      }
+      #navbar ul{
+          padding: 00.5rem;
+      }
+      #showcase .showcase-content{
+          top: 143px;
+          margin: -2rem;
+      }
+      #who{
+          display: block;
+      }
+      #who .img{
+          display: none;
+      }
+      #clients .items img{
+          width: 80%;
+      }
+      #clients .items div:last-child{
+          display: none;
+      }
+      #contact{
+          flex-direction:column;;
+      }
+      
+      #contact .map{
+          height: 200px;
+      
+         
+      }
+
+  }

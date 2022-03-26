@@ -1,0 +1,12 @@
+/*align item left to right*/
+#what .items .item {
+  display: flex;
+  margin-right: 1.4rem;
+}
+#what .items .item i {
+  align-self: center;
+  margin-bottom: 0;
+}
+#contact .map {
+  flex: 2;
+}
